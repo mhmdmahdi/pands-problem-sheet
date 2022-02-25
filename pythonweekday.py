@@ -8,6 +8,7 @@ days = ["Monday", "Tuesday", "Wednesday",
 
 weekdays = days[:5]
 # defining weekdays using the array
+# I can see that this code could be simplified further removing "Saturday/ Sunday" from the array and removing the variable weekdays and redefining the array from "array" to "weekdays". I wanted to play with the arrays for this assignment so I have lengthened the code slightly.
 
 today = (datetime.today().strftime('%A'))
 # defining the day of the week as 'today' to use in subsequent if statement.
