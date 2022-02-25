@@ -7,16 +7,13 @@ days = ["Monday", "Tuesday", "Wednesday",
 # creating an array which defines all the days of the week
 
 weekdays = days[:5]
-weekend = days[5:7]
-# defining weekdays and weekend using the array
+# defining weekdays using the array
 
 today = (datetime.today().strftime('%A'))
 # defining the day of the week as 'today' to use in subsequent if statement.
 
 if (today in weekdays):
     print("Yes, unfortunately today is a weekday.")
-elif (today in weekend):
-    print("It is the weekend, yay!")
 else:
-    print("Invalid input")
-# if, else, elif statement to execute the print command
+    print("It is the weekend, yay!")
+# if, else statement to execute the print command
